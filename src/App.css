@@ -1,0 +1,67 @@
+#root {
+  
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* App.css */
+.count{
+
+  padding: 60px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background-color: #c9d9d7;
+
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.counter-container {
+  
+  background-color: #fff;
+  padding: 60px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  margin: 0 0 20px;
+  font-size: 2.5rem;
+  color: #333;
+}
+
+button {
+  background-color: #007bff;
+  color: #aa0000;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #879bae9a;
+}
+
+button:active {
+  background-color: #004080;
+}
+
+button:focus {
+  outline: none;
+}
+
